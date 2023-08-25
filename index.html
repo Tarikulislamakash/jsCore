@@ -12,16 +12,94 @@
     />
   </head>
   <body>
-    <div class="container pt-5">
+    <div class="container">
       <!-- js engine -->
-      <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center py-5">
         <div class="col-md-10 text-center">
           <h1 class="text-uppercase text-primary border-bottom border-4">
             JS Engine
           </h1>
         </div>
+        <div class="col-md-10 text-center my-5">
+          <img src="img/1.png" alt="" class="text-center" />
+        </div>
+        <div class="col-md-10">
+          <ul class="text-xl fs-3">
+            <li>
+              Interpreter translate and read code line by line and convert code
+              into bytecode.
+            </li>
+            <li>Compiler convert code into machine code.</li>
+          </ul>
+        </div>
+        <div class="col-md-10 text-center my-5">
+          <img src="img/2.png" alt="" class="text-center" />
+        </div>
+        <div class="col-md-10">
+          <ul class="text-xl fs-3">
+            <li>Parse code.</li>
+            <li>Convert it into abstract systax tree.</li>
+            <li>Then code goes to interpreter</li>
+            <li>
+              Then convert code into bytecode and bytecode is not as low level
+              language as machine code.
+            </li>
+            <li>
+              Profiler checks if there is anything to optimize and if any then
+              interpreter hand over code to profiler.
+            </li>
+            <li>Profiler hand over the code to compiler.</li>
+            <li>Compiler convert the code into low level machine code.</li>
+          </ul>
+        </div>
       </div>
       <!-- js engine -->
+
+      <!-- optimize code -->
+      <div class="row d-flex justify-content-center py-5">
+        <div class="col-md-10 text-center">
+          <h1 class="text-uppercase text-primary border-bottom border-4">
+            Optimize code (webAssembly)
+          </h1>
+        </div>
+        <div class="col-md-10 text-center my-5">
+          <img src="img/3.png" alt="" class="text-center" />
+        </div>
+        <div class="col-md-10">
+          <ul class="text-xl fs-3">
+            <li>WebAssembly is binary executable format.</li>
+            <li>It compiles code to webAssembly which is executable.</li>
+            <li>
+              So it can execute the code fast directly in the browser and no
+              need to go to Js engine.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- optimize code -->
+
+      <!-- call stack and heap memory -->
+      <div class="row d-flex justify-content-center py-5">
+        <div class="col-md-10 text-center">
+          <h1 class="text-uppercase text-primary border-bottom border-4">
+            Call Stack and Heap Memory
+          </h1>
+        </div>
+        <div class="col-md-10 text-center my-5">
+          <img src="img/3.png" alt="" class="text-center" />
+        </div>
+        <div class="col-md-10">
+          <ul class="text-xl fs-3">
+            <li>WebAssembly is binary executable format.</li>
+            <li>It compiles code to webAssembly which is executable.</li>
+            <li>
+              So it can execute the code fast directly in the browser and no
+              need to go to Js engine.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- call stack and heap memory -->
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
